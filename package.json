@@ -1,0 +1,19 @@
+{
+  "name": "pact-v3",
+  "version": "1.0.0",
+  "description": "Example of message PACT",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "clean": "del dist /Q",
+    "build": "tsc"
+  },
+  "author": "Hypr",
+  "license": "ISC",
+  "dependencies": {
+    "@pact-foundation/pact": "^6.0.0-alpha.13",
+    "mocha": "^5.2.0",
+    "chai": "~4.1.2",
+    "typescript": "^2.8.3"
+  }
+}
